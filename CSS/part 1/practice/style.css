@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color:rgb(140, 58, 0);
+    font-weight: bold;
+    text-decoration: wavy rgb(96, 174, 210) underline;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 153, 0);
+    font-weight:bold;
+    text-decoration: dotted red underline;
+    text-decoration:gray line-through ;
+}
+
+h3:first-of-type{
+    display: inline;
+    background-color: rgb(224, 220, 153);
+    text-decoration: overline;
+   
+}
+
+p{
+    color: rgb(3, 65, 115);
+    text-align: justify;
+    text-decoration: rgb(128, 128, 52) dotted underline;
+    font-family:arial;
+}
+
+b{
+    color: brown;
+    border: 2px solid black;
+}
+
+i{
+    color: black;
+    border: 3px solid gray;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 200;
+}

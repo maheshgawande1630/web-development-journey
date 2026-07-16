@@ -1,0 +1,13 @@
+#container{
+
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#education a{
+    text-decoration:none
+}

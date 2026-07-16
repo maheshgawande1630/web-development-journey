@@ -1,0 +1,77 @@
+#outer{
+    background-color: aqua;
+    font-size: 20px;
+    border: 2px solid black;
+    margin:5px;
+    display: inline-block;
+    transform: rotate(90deg);
+    transform: scale(2);
+    transform: translate(20px,20px);
+    transform: skew(10deg)
+}
+
+#inner{
+    background-color: rgb(158, 103, 103);
+    font-size: 2em;
+    border: 2px solid rgb(0, 0, 0);
+    transform: rotate(-30deg);
+    box-shadow: 23px 2epx 38px rgb(150, 0, 0);
+    
+}
+
+#tra{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    padding: 100px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.5,1.5);
+    transform: translatey(10px);
+    transform: translate(150px);
+    transform: skew(12deg);
+    box-shadow:9px 9px 20px rgb(0, 0, 0);
+
+
+    
+}
+
+#tra:hover{
+    background-color: rgb(226, 226, 226);
+    border: 2px dashed black;
+    border-radius: 50%;
+
+
+}
+
+button{
+
+    background-color: blanchedalmond;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 30px;
+    transition: 1s 1s;
+    transform: translate(100px,50px);
+    box-shadow: 23px 2epx 38px rgb(150, 0, 0);
+    
+}
+
+button:active{
+
+    background-color: aqua;
+    border-radius: 50%;
+    transform: rotate(189deg);
+   
+   
+
+
+
+
+}
+

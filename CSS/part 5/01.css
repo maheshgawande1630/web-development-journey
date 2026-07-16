@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    background-image:url("bgimg.jpeg");
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+   
+}

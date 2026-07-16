@@ -1,0 +1,16 @@
+.container{
+
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+
+    height: 30px;
+    width: 100px;
+    background-color: blueviolet;
+}

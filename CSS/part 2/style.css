@@ -1,0 +1,123 @@
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+   
+}
+
+p a{
+
+    color:purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+
+    color: rgb(129, 99, 78);
+}
+
+p + h3 {
+
+    text-decoration: underline;
+}
+
+.upvote + button{
+
+    background-color: rgb(199, 68, 68);
+}
+
+div > input {
+
+     background-color:olive;
+     color: black;
+}
+
+input[type="text"]{
+    background-color: aqua;
+    color: #6d2926;
+
+}
+
+input[type="password"]{
+    background-color: rgb(38, 188, 78);
+    color: rgb(78, 4, 4);
+}
+
+input[type="email"]{
+    background-color: rgb(213, 205, 56);
+    color: black;
+
+}
+
+span button:hover{
+
+    color: bisque;
+    background-color: black;
+}
+
+h3:hover{
+    color: darkviolet;
+    background-color: aqua;
+   
+}
+
+h3:active{
+    color: rgb(169, 9, 197);
+    background-color: blue;
+    font-weight: bold;
+
+}
+
+p:active{
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+.upvote:active{
+
+    background-color: turquoise;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+h3:nth-of-type(2n){
+
+    color: crimson;
+}
+
+nav ul li:nth-of-type(2){
+
+    color: rgb(6, 0, 51);
+    background-color: aqua;
+}
+
+h1::first-letter{
+    color: fuchsia;
+    background-color: bisque;
+}
+
+input::first-letter{
+    background-color: blue;
+    
+}
+
+
+div p::first-line{
+    color: aquamarine;
+}
+
+
+p::selection{
+    
+    background-color: gold;
+}

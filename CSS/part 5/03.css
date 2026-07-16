@@ -1,0 +1,21 @@
+#navbar{
+
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border:2px solid aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: center;
+    
+}
+
+.button{
+
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    font-size: 24px;
+}
