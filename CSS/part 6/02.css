@@ -1,0 +1,33 @@
+h1{
+    background-color: bisque;
+
+}
+
+@media (min-width:300px )and (max-width:700px){
+    h1{
+        background-color: blue;
+        color: aquamarine;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:300px){
+    h1{
+        background-color: blueviolet;
+        color: brown;
+    }
+}
+
+@media (orientation: landscape){
+
+    h1{
+        background-color: chartreuse;
+    }
+}
+
+@media(orientation: portrait){
+    h1{
+        background-color: rgb(10, 0, 4);
+    }
+
+}

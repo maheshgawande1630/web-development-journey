@@ -1,0 +1,39 @@
+img{
+    width:100%;
+    border-radius: 10px;
+}
+
+#mainHeading{
+
+    font-style: italic;
+    color: chocolate;
+}
+
+span{
+    color: coral;
+}
+
+#pets{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+
+    border: 2px solid black;
+    width: 400px;
+    /* height: 500px; */
+    display: inline-block;
+    margin: 100px;
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+@media (max-width:375px){
+
+    #pets{
+        flex-wrap: wrap;
+    }
+}
