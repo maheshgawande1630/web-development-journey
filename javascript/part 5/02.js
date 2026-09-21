@@ -15,6 +15,11 @@ const studentinfo={
     }
 }
 
-console.log(studentinfo);
+
 studentinfo.mahesh.grade="O";
+studentinfo.ram.city="pune";
+console.log(studentinfo.srushti);
+console.log(studentinfo);
+
+
 
